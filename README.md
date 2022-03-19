@@ -4,7 +4,7 @@
 | Kelas   | TI.20.A.1        |
 
 ## Langkah langkah praktikum 2
-Membuka text editor, Saya menggunakan Sublime text
+Membuka text editor, Saya menggunakan Atom
 ![img1!](assets/img/praktikum/start.png)
 
 ## 1. Membuat Dokumen HTML
@@ -60,7 +60,7 @@ Kemudian simpan kembali dan refresh browser untuk melihat perubahannya
 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( `<p id="paragraf-1" class="text-paragraf">` )
 
 ## Jawab
-1. Saya akan mengubah dan menambah properti dan nilai pada kode CSS, dimulai dari membuat kerangka html nya
+1. Saya akan mengubah lalu menambahkan properti dan nilai pada kode CSS, dimulai dari membuat kerangka html nya
 
 	![img1!](assets/img/praktikum/1.png)
 
@@ -91,7 +91,7 @@ Kemudian simpan kembali dan refresh browser untuk melihat perubahannya
 
 3. Setelah dilakukan pengujian, deklarasi CSS Inline lebih dahulu tampil di browser, itu dikarenakan permintaan HTTP yang sangat kecil memungkinkan untuk ditampilkan dahulu
 
-	Berikut merupakan hasil pengujian deklarasi CSS
+	Berikut ini merupakan hasil dari pengujian deklarasi CSS
 
 	CSS Inline `blue`
 
@@ -101,6 +101,6 @@ Kemudian simpan kembali dan refresh browser untuk melihat perubahannya
 
 	![img3!](assets/img/praktikum/3.png)
 
-4. Deklarasi `id="paragraf-1"` akan ditampilkan pada browser, karena selektor id lebih spesifik dari class atau bahkan element P itu sendiri, kecuali jika kita menambahkan property pada inline element P maka selektor id tersebut akan tertimpa, karena inline lebih spesifik daripada id, class, dan element
+4. Deklarasi `id="paragraf-1"` akan ditampilkan pada browser, karena selektor id lebih spesifik dari class atau bahkan element P itu sendiri, kecuali jika kita menambahkan property pada inline element P maka selektor id tersebut akan tertimpa, karena inline lebih spesifik dari pada id, class, dan element
 
 	![img4!](assets/img/praktikum/4.png)
